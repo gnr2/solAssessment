@@ -1,4 +1,4 @@
-# Solidity Assessment
+# MetaCrafters Solidity Assessment
 This assessment is done in accordance with the instructions provided by Meta Crafters on creating a token. 
 
 ## The Instructions are as Follows
