@@ -9,7 +9,7 @@ The MyToken contract allows for the creation of a token with the name "META" and
 **How to Download**:
 
 - You can run and compile this contract using Remix, an online Etherium IDE.
-- Visit [Remix](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.18+commit.87f61d96.js), create a new file and copy-paste the contract code into it.
+- Visit [Remix](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.18+commit.87f61d96.js), create a new file and copy-paste the [contract](https://github.com/gnr2/solAssessment/blob/main/GEMD_SOLTest) code into it.
 
 
 ### Executing Program
