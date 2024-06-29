@@ -1,40 +1,36 @@
-# MetaCrafters Solidity Assessment
-This assessment is done in accordance with the instructions provided by Meta Crafters on creating a token. 
+# Solidity MyToken Project
+This project is a simple implementation of an ERC20-like token named "META" with the abbreviation "MTA". It includes functionalities for minting and burning tokens.
 
-## The Instructions are as Follows
-REQUIREMENTS 
+## Description
+The MyToken contract allows for the creation of a token with the name "META" and abbreviation "MTA". It supports basic token operations such as minting new tokens and burning existing ones. The contract keeps track of token balances for different addresses and updates the total supply of tokens accordingly. This contract is a great starting point for understanding how token contracts work on the Ethereum blockchain.
 
-    1. Your contract will have public variables that store the details about your coin 
-       (Token Name, Token Abbrv., Total Supply)
-    
-    2. Your contract will have a mapping of addresses to balances (address => uint)
-    
-    3. You will have a mint function that takes two parameters: an address and a value. 
-       The function then increases the total supply by that number and increases the balance 
-       of the “sender” address by that amount
-       
-    4. Your contract will have a burn function, which works the opposite of the mint function, 
-       as it will destroy tokens.It will take an address and value just like the mint functions.
-       It will then deduct the value from the total supply and from the balance of the “sender”.
-    
-    5. Lastly, your burn function should have conditionals to make sure the balance of "sender"
-       is greater than or equal to the amount that is supposed to be burned.
+## Getting Started
+### Installing
+**How to Download**:
 
-## Given Code Block
+- You can run and compile this contract using Remix, an online Etherium IDE.
+- Visit [Remix](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.18+commit.87f61d96.js), create a new file and copy-paste the contract code into it.
 
-With the given flow of the code, I must accomplish the steps given in the requirements.
 
-```
-contract MyToken {
+### Executing Program
+**How to Run**:
 
-   // public variables here
+1. Open [Remix](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.18+commit.87f61d96.js).
+2. Create a new file and paste the Solidity code provided.
+3. Compile the contract using the Solidity compiler version 0.8.18.
+4. Deploy the contract to an Ethereum test network or the Remix VM (JavaScript VM).
 
-  // mapping variable here
+Once deployed, play away with the contract's functions. The contract has functions to `mint`, `burn`, and `view total supply` of tokens.
 
-  // mint function
+## Help
 
-  // burn function
+**Common Problems and Solutions**:
 
-}
-```
-The final output can be viewed in the .sol file contained in this repository.
+- Ensure you have the correct Solidity compiler version (0.8.18).
+- Make sure the address used in the mint and burn functions is valid and correctly formatted.
+- If the burn function fails, check if the address has enough balance to burn the specified amount.
+
+## Authors
+- **gnr**
+  - GitHub: **@gnr2**
+  - Email: gemdavid@mymail.mapua.edu.ph
