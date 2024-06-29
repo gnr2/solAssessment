@@ -1,5 +1,5 @@
 # Solidity MyToken Project
-This project is a simple implementation of an ERC20-like token named "META" with the abbreviation "MTA". It includes functionalities for minting and burning tokens.
+This MetaCrafters project is a simple implementation of an ERC20-like token named "META" with the abbreviation "MTA". It includes functionalities for minting and burning tokens.
 
 ## Description
 The MyToken contract allows for the creation of a token with the name "META" and abbreviation "MTA". It supports basic token operations such as minting new tokens and burning existing ones. The contract keeps track of token balances for different addresses and updates the total supply of tokens accordingly. This contract is a great starting point for understanding how token contracts work on the Ethereum blockchain.
